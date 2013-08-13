@@ -1,0 +1,31 @@
+A. Kleinhesselink,  8/13/2013 
+
+Final project write up and analysis for Utah State University Structured Population models course taught by Dr. Dave Koons.  Runs analsyses on population datasets reported in Ellis et al. 2012 and available at: http://esapubs.org/archive/ecol/E093/083/.  Also depends on a raster dataset of global coefficient of variation of precipitation produced by Von Wehrden et al. 2012 and available at: http://esapubs.org/archive/appl/A022/025/
+
+
+
+Contents: 
+
+AK_final_project_write_up.docx -- manuscript style explanation of methods and report of findings.
+
+final_project_analyses.R -- Final script calls the other analysis scripts  performs the statistical comparison population dynamics to climate and outputs pdf graphs. 
+
+find_cv_precip_for_Ellis_et_al_pops.R -- Finds the coefficient of variation of annual precipitation for population study sites in Ellis et al. 2012. 
+
+Ellis_et_al_deterministic_analysis.R -- Performs deterministic population analysis on the Ellis et al. populations and saves results in a CSV file 
+
+Ellis_et_al_stochastic_analysis.R -- Performs stochastic analysis and outputs results in a .csv file.  Methods explained in manuscript. 
+
+stochastic_analysis_tools.R -- Contains functions called by scripts above for stochastic analysis of populations
+
+deterministic_analysis_tools.R -- Contains functions called by scripts above for deterministic analysis of population transition matrices 
+
+stochastic_analysis_tools_test.R -- Non-automated tests of stochastic functions.
+
+deterministic_analysis_tools_test.R -- Non-automated tests of deterministic functions.  
+	
+
+
+
+
+
